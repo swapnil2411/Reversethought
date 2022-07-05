@@ -461,7 +461,8 @@
     }
 
     .hero_area{
-        padding: 100px 0 0 0;
+        padding: 150px 0 100px;
+        height: 100%;
     }
 
     .hero_area .hero_content {
