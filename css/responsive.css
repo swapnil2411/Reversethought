@@ -21,10 +21,7 @@
         font-size: 18px;
     }
 
-    .hero_area{
-        height: 100vh;
-        /* padding: 150px 0 120px; */
-    }
+    
 
     .hero_area .hero_content .service_list ul a{
         font-size: 20px;
