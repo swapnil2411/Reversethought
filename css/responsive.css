@@ -21,7 +21,9 @@
         font-size: 18px;
     }
 
-    
+    .hero_area{
+        padding: 180px 0 150px;
+    }
 
     .hero_area .hero_content .service_list ul a{
         font-size: 20px;
