@@ -1,3 +1,6 @@
+/* @media (min-width: 1920px){
+
+} */
 @media (min-width: 1600px){
     .container{
         max-width: 1500px;
@@ -16,6 +19,11 @@
     .right_nav_area .nav_link .menu_list li a,
     .right_nav_area .contact_no a{
         font-size: 18px;
+    }
+
+    .hero_area{
+        height: 100vh;
+        /* padding: 150px 0 120px; */
     }
 
     .hero_area .hero_content .service_list ul a{
