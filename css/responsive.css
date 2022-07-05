@@ -76,6 +76,19 @@
         width: 100%;
     }
 
+    .project_desc {
+        bottom: 45px;
+        left: 45px;
+    }
+
+    .project_desc .company_name a{
+        font-size: 36px;
+    }
+
+    .project_desc .segment{
+        font-size: 15px;
+    }
+
     .contact_area .contact_content .contact_inner_content .contact_form input, .contact_area .contact_content .contact_inner_content .contact_form select, .contact_area .contact_content .contact_inner_content .contact_form textarea,.contact_area .contact_content .contact_inner_content .contact_form input::placeholder,
     .contact_area .contact_content .contact_inner_content .contact_form textarea::placeholder{
         font-size: 17px;
@@ -343,7 +356,11 @@
         text-align: center;
     }
     .hero_area{
-        padding: 100px 0 0 0;
+        padding: 150px 0 80px;
+    }
+
+    .hero_area .hero_content .service_list ul:not(:last-child){
+        margin-right: 35px;
     }
 
     .hero_area .hero_content .hero_heading {
@@ -416,6 +433,11 @@
         padding-right: 25px;
     }
 
+    .tagline p{
+        font-size: 20px;
+        line-height: normal;
+    }
+
 
     .news_area .inner_news_content{
         width: 100%;
@@ -458,6 +480,10 @@
 @media (max-width: 600px){
     .navigation_bar{
         padding: 25px 10px;
+    }
+
+    .navigation_bar .inner_navbar{
+        padding: 0;
     }
 
     .hero_area{
@@ -564,6 +590,10 @@
     .footer_inner_content .footer_content .visitsitelink{
         font-size: 36px;
     }
+
+    .footer_inner_content{
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 480px){
@@ -626,6 +656,11 @@
         padding: 0 0 50px;
     }
 
+    .project_desc{
+        bottom: 25px;
+        left: 25px;
+    }
+
     .project_desc .company_name a {
         font-size: 20px;
     }
@@ -642,5 +677,34 @@
 
     .footer_area .copyright p{
         line-height: 18px;
+    }
+
+    .footer_inner_content{
+        padding-left: 0px;
+    }
+
+    .hero_area .hero_content .service_list{
+        flex-wrap: wrap;
+    }
+
+    .hero_area .hero_content .service_list ul{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 15px;
+        margin-right: 0 !important;
+    }
+
+    .hero_area .hero_content .service_list ul:last-child{
+        margin-top: 10px;
+    }
+
+    .hero_area .hero_content .service_list ul li a{
+        font-family: 'NeueHaasGroteskText Medium';
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .hero_area .hero_content .hero_heading{
+        padding-top: 30px;
     }
 }

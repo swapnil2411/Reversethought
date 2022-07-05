@@ -19,6 +19,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --white: #fff;
     --black: #000;
@@ -114,7 +118,8 @@ table {
 .media ul,
 .news_area .inner_news_content .news_list ul,
 .news_area .inner_news_content .news_list ul li,
-.call_now_btn a{
+.call_now_btn a,
+.hero_area .hero_content .service_list{
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -159,7 +164,7 @@ header{
 
 .navigation_bar{
     border-top: 10px solid var(--maroon);
-    padding: 25px 20px;
+    padding: 25px 0;
     /* background: var(--white); */
     position: relative;
 }
@@ -175,6 +180,7 @@ header{
     -webkit-align-items: center;
     -webkit-box-align: center;
     align-items: center;
+    padding: 0 25px;
 }
 
 .right_nav_area{
@@ -272,17 +278,34 @@ header{
 
 /* Hero Area Css */
 .hero_area{
-    height: 100vh;
+    height: 100%;
     position: relative;
     overflow: hidden;
     -webkit-align-items: center;
     -webkit-box-align: center;
     align-items: center;
-    padding: 100px 0 0;
+    padding: 150px 0 120px;
 }
 
 .hero_area .hero_content{
     padding-left: 25px;
+}
+
+.hero_area .hero_content .service_list ul:not(:last-child){
+    margin-right: 50px;
+}
+
+.hero_area .hero_content .service_list ul li{
+    margin-bottom: 12px;
+}
+
+.hero_area .hero_content .service_list ul a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'NeueHaasGroteskText Bold';
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
 }
 
 .hero_area .hero_content .hero_heading{
@@ -291,6 +314,7 @@ header{
     font-weight: 600;
     line-height: 78px;
     letter-spacing: -1px;
+    padding-top: 55px;
 }
 
 .hero_area .hero_content .hero_heading .maroon_txt{
@@ -715,8 +739,8 @@ header{
     color: var(--red);
     font-family: 'NeueHaasGroteskText Medium';
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 22px;
+    line-height: 28px;
     margin-bottom: 30px;
 }
 
@@ -799,7 +823,7 @@ header{
 /* Showreel Css */
 .showreel_area{
     height: 100vh;
-    background: url('../images/showreel2.jpg');
+    background: url('../images/showreel2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -817,6 +841,7 @@ header{
     display: inline-block;
     color: var(--maroon);
     position: relative;
+    text-align: center;
 }
 
 .show_reel_content .playPause_btn::before{
@@ -851,6 +876,13 @@ header{
 
 .show_reel_content .playPause_btn svg{
     font-size: 60px;
+    margin-top: -10px;
+}
+
+.show_reel_content .showreeltext{
+    display: block;
+    font-size: 13px;
+    margin-top: -5px;
 }
 
 /* Footer Css */
@@ -866,7 +898,7 @@ footer{
 }
 
 .footer_inner_content{
-    padding: 80px 25px 80px 0;
+    padding: 80px 0 80px 25px;
 }
 
 .footer_inner_content .footer_logo{
