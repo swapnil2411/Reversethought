@@ -292,18 +292,18 @@ header{
 }
 
 .hero_area .hero_content .service_list ul:not(:last-child){
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .hero_area .hero_content .service_list ul li{
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .hero_area .hero_content .service_list ul a{
     text-decoration: none;
     color: var(--black);
-    font-family: 'NeueHaasGroteskText Bold';
-    font-weight: 600;
+    font-family: 'NeueHaasGroteskText Medium';
+    font-weight: 500;
     line-height: normal;
     display: inline-block;
 }
