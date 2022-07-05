@@ -13,7 +13,7 @@ $('.close_nav').on('click', function(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     console.log(scroll);
-    if(scroll >= 200){
+    if(scroll >= 100){
         $('.navigation_bar').addClass('bg_color');
     }
 
