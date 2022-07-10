@@ -87,13 +87,17 @@
         width: 100%;
     }
 
-    .project_desc {
-        bottom: 45px;
-        left: 45px;
+    .project_desc, .visit_link {
+        bottom: 60px;
+        left: 48px;
     }
 
     .project_desc .company_name a{
         font-size: 36px;
+    }
+
+    .visit_link a{
+        font-size: 24px;
     }
 
     .project_desc .segment{
@@ -117,6 +121,10 @@
     .tagline p{
         font-size: 24px;
         line-height: 34px;
+    }
+
+    .showreeltext{
+        top: 60%;
     }
 
     .footer_inner_content .footer_content p {
@@ -149,12 +157,17 @@
         max-width: 60%;
     }
 
+    .project_desc, .visit_link{
+        bottom: 38px;
+        left: 30px;
+    }
+
     .project_desc .segment{
         font-size: 12px;
     }
 
     .project_desc .company_name a{
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .contact_area .contact_content .contact_inner_content{
@@ -348,6 +361,11 @@
         max-width: 50%;
     }
 
+    .project_desc,.visit_link {
+        bottom: 50px;
+        left: 43px;
+    }
+
     .project_desc .company_name a{
         font-size: 28px;
     }
@@ -422,6 +440,12 @@
         text-align: center;
     }
     
+
+    .project_desc, .visit_link {
+        bottom: 35px;
+        left: 25px;
+    }
+
     .project_desc .company_name a{
         font-size: 24px;
     }
@@ -566,9 +590,9 @@
         padding: 0 10px 50px;
     }
 
-    .project_desc {
-        bottom: 15px;
-        left: 15px;
+    .project_desc, .visit_link {
+        bottom: 30px;
+        left: 25px;
     }
 
     .project_desc .company_name a {
@@ -668,9 +692,9 @@
         padding: 0 0 50px;
     }
 
-    .project_desc{
-        bottom: 25px;
-        left: 25px;
+    .project_desc, .visit_link {
+        bottom: 35px;
+        left: 30px;
     }
 
     .project_desc .company_name a {
@@ -711,9 +735,6 @@
     }
 
     .hero_area .hero_content .service_list ul li a{
-        font-family: 'NeueHaasGroteskText Medium';
-        font-weight: 500;
-        font-size: 15px;
     }
 
     .hero_area .hero_content .hero_heading{

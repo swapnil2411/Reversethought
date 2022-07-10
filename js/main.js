@@ -41,3 +41,8 @@ window.onload = ()=>{
  // Current year
 
  $('#year').text((new Date).getFullYear());
+
+ // Connect to contact form
+ $('.lead_area').on('click', function(){
+    window.location.href = 'index.html#contact-us'
+ })
