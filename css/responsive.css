@@ -630,6 +630,12 @@
     .footer_inner_content{
         padding-left: 10px;
     }
+
+    .thunder_effect_small {
+        bottom: 20px;
+        right: 90px;
+        z-index: -1;
+    }
 }
 
 @media (max-width: 480px){
