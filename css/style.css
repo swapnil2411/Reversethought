@@ -310,7 +310,7 @@ header{
 
 .hero_area .hero_content .service_list ul li{
     margin-bottom: 12px;
-    animation-delay: 0.2s;
+    animation-delay: 0.4s;
 }
 
 .hero_area .hero_content .service_list ul a{
@@ -330,7 +330,7 @@ header{
     line-height: 78px;
     letter-spacing: -1px;
     padding-top: 55px;
-    animation-delay: 0.4s;
+    animation-delay: 0.6s;
 }
 
 .hero_area .hero_content .hero_heading .maroon_txt{
